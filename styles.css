@@ -105,52 +105,23 @@ li a {
   display:flex;
   justify-content:center;
 }
-.proj1 {
+.thumbnail {
   flex:1;
   border:solid 1px;
   max-width:150px;
   height:175px;
-  margin-top:30px;
-  margin-bottom:30px;
+  margin:30px 25px;
 }
-.proj2 {
-  flex:1;
-  border:solid 1px;
-  max-width:150px;
-  height:175px;
-  margin:30px 50px;
-}
-.proj3 {
-  flex:1;
-  border:solid 1px;
-  max-width:150px;
-  height:175px;
-  margin-top:30px;
-  margin-bottom:30px;
-}
-.titles {
+.projects {
   display:flex;
   justify-content:center;
 }
-.a1 {
+.proj_titles {
   flex:1;
   max-width:150px;
   text-align:center;
   margin-bottom:10px;
-}
-.a2 {
-  flex:1;
-  max-width:150px;
-  text-align:center;
-  margin-bottom:10px;
-  margin-left:50px;
-  margin-right:50px;
-}
-.a3 {
-  flex:1;
-  max-width:150px;
-  text-align:center;
-  margin-bottom:10px;
+  margin:30px 25px;
 }
 footer {
   text-align:center;
