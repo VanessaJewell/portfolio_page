@@ -26,27 +26,26 @@ nav {
   display:flex;
   flex:20;
 }
-.blink {
+.b_link {
   flex:1;
   padding-top:6px;
   font-size:20px;
   margin-left:50%;
 }
-.tlink {
+.t_link {
   flex:1;
   padding-top: 6px;
   font-size: 20px;
 }
-.plink {
+.p_link {
   flex:1;
   padding-top:6px;
   font-size:20px;
 }
-.nodec {
-  text-decoration:none;
+.link_color {
   color:black;
 }
-.nodec:hover {
+.link_color:hover {
   color:#44d6d6;
 }
 .bio {
