@@ -1,0 +1,160 @@
+* {
+  box-sizing:border-box;
+}
+body {
+  margin:0;
+  color:#494e56;
+}
+nav {
+  display:flex;
+  border:solid 1px;
+  height:2em;
+  background-color:#a9a9a9;
+  position:fixed;
+  width:100%;
+}
+.logo {
+  flex:1;
+  border-right:solid 1px #000000;
+  max-width:75px;
+  font-size:30px;
+  text-align:center;
+  font-family:sans-serif;
+  color:#44d6d6;
+}
+.nav {
+  display:flex;
+  flex:20;
+}
+.blink {
+  flex:1;
+  padding-top:6px;
+  font-size:20px;
+  margin-left:50%;
+}
+.tlink {
+  flex:1;
+  padding-top: 6px;
+  font-size: 20px;
+}
+.plink {
+  flex:1;
+  padding-top:6px;
+  font-size:20px;
+}
+.nodec {
+  text-decoration:none;
+  color:black;
+}
+.nodec:hover {
+  color:#44d6d6;
+}
+.bio {
+  margin-top:20px;
+  display:inline-block;
+  border-bottom:solid 1px;
+  padding-top:20px;
+  padding-left:20px;
+  padding-bottom:20px;
+  padding-right:20px;
+  font-family:sans-serif;
+  line-height:1.5em;
+}
+.van {
+  width:300px;
+  padding:20px;
+  border:solid 1px #d3d3d3;
+  margin-top:20px;
+  margin-right:20px;
+  float:left;
+  border-radius:25px;
+}
+li {
+  display:inline;
+  float: left;
+}
+li a {
+  display:block;
+  width:200px;
+}
+.toolbox {
+  border-bottom:solid 1px;
+  padding-top:10px;
+  padding-bottom:25px;
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+}
+.tool {
+  border:solid 1px;
+  width:75px;
+  margin-left:20px;
+}
+.tb1 {
+  flex:1;
+  width:100%;
+  padding-bottom:20px;
+}
+.tb2 {
+  flex:1;
+}
+.port_container {
+  text-align:center;
+}
+.portfolio {
+  display:flex;
+  justify-content:center;
+}
+.proj1 {
+  flex:1;
+  border:solid 1px;
+  max-width:150px;
+  height:175px;
+  margin-top:30px;
+  margin-bottom:30px;
+}
+.proj2 {
+  flex:1;
+  border:solid 1px;
+  max-width:150px;
+  height:175px;
+  margin:30px 50px;
+}
+.proj3 {
+  flex:1;
+  border:solid 1px;
+  max-width:150px;
+  height:175px;
+  margin-top:30px;
+  margin-bottom:30px;
+}
+.titles {
+  display:flex;
+  justify-content:center;
+}
+.a1 {
+  flex:1;
+  max-width:150px;
+  text-align:center;
+  margin-bottom:10px;
+}
+.a2 {
+  flex:1;
+  max-width:150px;
+  text-align:center;
+  margin-bottom:10px;
+  margin-left:50px;
+  margin-right:50px;
+}
+.a3 {
+  flex:1;
+  max-width:150px;
+  text-align:center;
+  margin-bottom:10px;
+}
+footer {
+  text-align:center;
+  border-top:solid 1px;
+  padding-top:8px;
+  padding-bottom:6px;
+}
